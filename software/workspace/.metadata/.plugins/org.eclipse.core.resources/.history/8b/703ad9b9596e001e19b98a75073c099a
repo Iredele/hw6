@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <unistd.h>
+#include "altera_avalon_pio_regs.h"
+#include "sys/alt_irq.h"
+#include "system.h"
+#include "alt_types.h"
+
+
+volatile int edge_capture;
+volatile int sw_val;
+volatile int display = 1;
+
+static void pio_init();
+static void handle_button_interrupts(void* context);
+static void key2_isr();
+static void key3_isr();
+
+
+static void pio_init(){
+	void* edge_capture_ptr = (void*)&edge_capture;
+
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(KEYS_BASE, 0xf);
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE, 0x0);
+
+	//alt_irq_register(KEYS_IRQ, edge_capture_ptr, handle_button_interrupts);
+	alt_ic_isr_register(KEYS_IRQ_INTERRUPT_CONTROLLER_ID, KEYS_IRQ, (void *) handle_button_interrupts, edge_capture_ptr, 0x00);
+}
+
+static void handle_button_interrupts(void* context){
+	volatile int* edge_capture_ptr = (volatile int*) context;
+
+	*edge_capture_ptr = IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE);
+	sw_val = IORD_ALTERA_AVALON_PIO_DATA(SWITCHES_BASE);
+	sw_val = sw_val & 0xFF;
+
+	if(*edge_capture_ptr == 4){
+		key3_isr();
+	}
+
+	if(*edge_capture_ptr == 2){
+		key2_isr();
+	}
+
+    IOWR_ALTERA_AVALON_PIO_EDGE_CAP(0x4 & ~KEYS_BASE,0x0);
+    IORD_ALTERA_AVALON_PIO_EDGE_CAP(0x4 & ~KEYS_BASE);
+	//IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE, 0);
+	//IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE);
+
+}
+
+static void key2_isr(){
+	//printf("isr2\n");
+	IOWR_ALTERA_AVALON_PIO_DATA(GREEN_LEDS_BASE, 0x1);
+    IOWR_ALTERA_AVALON_PIO_EDGE_CAP(0x4 & ~KEYS_BASE,0x0);
+    IORD_ALTERA_AVALON_PIO_EDGE_CAP(0x4 & ~KEYS_BASE);
+	//IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE, 0);
+	//IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE);
+
+}
+
+static void key3_isr(){
+	if(sw_val == 0){
+		display += 2;
+	} else if(sw_val == 1){
+		display -= 2;
+	}
+
+	IOWR_ALTERA_AVALON_PIO_DATA(GREEN_LEDS_BASE, display);
+    IOWR_ALTERA_AVALON_PIO_EDGE_CAP(0x4 & ~KEYS_BASE,0x0);
+    IORD_ALTERA_AVALON_PIO_EDGE_CAP(0x4 & ~KEYS_BASE);
+
+	//IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE, 0x0);
+	//IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE);
+}
+
+int main()
+{
+	printf("Running...\n");
+	pio_init();
+	printf("Returned from init func...\n");
+  return 0;
+}

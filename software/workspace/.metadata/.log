@@ -1,0 +1,857 @@
+!SESSION 2023-10-18 23:38:40.449 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/16.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/16.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-18 23:38:58.702
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dayo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-18 23:40:10.125
+!MESSAGE Indexed 'hw6_bsp' (83 sources, 67 headers) in 1.06 sec: 1,229 declarations; 2,675 references; 112 unresolved inclusions; 6 syntax errors; 191 unresolved names (4.66%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-18 23:40:11.712
+!MESSAGE Indexed 'hw6' (1 sources, 0 headers) in 0.01 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-18 23:43:57.302
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-18 23:43:59.021
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+!SESSION 2023-10-18 23:45:00.787 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/16.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/16.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-18 23:45:11.981
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dayo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46a5aff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46a5aff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@695f382c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@695f382c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29fa465a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29fa465a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b2ca159,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b2ca159,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d47b761,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d47b761,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d4962bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d4962bd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76fa3dd8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76fa3dd8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58f27c37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58f27c37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 23:55:40.839
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78ae34f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78ae34f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:12:02.215
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:12:03.833
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:13:25.141
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:13:26.820
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:19:06.918
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:19:08.567
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:21:00.297
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:21:01.948
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY org.eclipse.jface 2 0 2023-10-19 00:21:03.337
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 00:21:03.337
+!MESSAGE A conflict occurred for ALT+ARROW_RIGHT:
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.forwardMacroExpansion,Forward,
+		Step forward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@28c8c41a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.forwardHistory,Forward History,
+		Move forward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6626282a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 00:21:03.337
+!MESSAGE A conflict occurred for ALT+ARROW_LEFT:
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.hover.backwardMacroExpansion,Back,
+		Step backward in macro expansions,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@ca69671,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.macroExpansionHoverScope,,,system)
+Binding(ALT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.backwardHistory,Backward History,
+		Move backward in the editor navigation history,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@117f2a90,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:23:45.290
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:23:46.939
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:25:15.669
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:25:17.628
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:26:50.335
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:26:51.994
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:28:34.014
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:28:36.304
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:35:59.667
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:36:01.300
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:41:36.953
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:41:38.625
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:42:30.301
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:42:31.966
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:43:50.691
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:43:52.375
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:44:15.115
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:44:16.777
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:44:42.962
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:44:45.282
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:47:16.158
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:47:18.473
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:49:16.794
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:49:19.344
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:49:21.664
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:51:17.446
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:51:19.776
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY org.eclipse.osgi 2 1 2023-10-19 00:53:57.093
+!MESSAGE NLS missing message: StringSubstitutionEngine_3 in: org.eclipse.cdt.debug.internal.core.InternalDebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2023-10-19 00:53:57.094
+!MESSAGE NLS missing message: StringSubstitutionEngine_4 in: org.eclipse.cdt.debug.internal.core.InternalDebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2023-10-19 00:53:57.094
+!MESSAGE NLS missing message: StringVariableManager_26 in: org.eclipse.cdt.debug.internal.core.InternalDebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2023-10-19 00:53:57.094
+!MESSAGE NLS missing message: StringVariableManager_27 in: org.eclipse.cdt.debug.internal.core.InternalDebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2023-10-19 00:53:57.095
+!MESSAGE NLS missing message: DynamicVariable_0 in: org.eclipse.cdt.debug.internal.core.InternalDebugCoreMessages
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-10-19 00:53:57.096
+!MESSAGE An internal error occurred during: "Add Memory Block".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.icu.text.MessagePattern.parseMessage(MessagePattern.java:935)
+	at com.ibm.icu.text.MessagePattern.parse(MessagePattern.java:182)
+	at com.ibm.icu.text.MessagePattern.<init>(MessagePattern.java:167)
+	at com.ibm.icu.text.MessageFormat.applyPattern(MessageFormat.java:451)
+	at com.ibm.icu.text.MessageFormat.<init>(MessageFormat.java:350)
+	at com.ibm.icu.text.MessageFormat.format(MessageFormat.java:995)
+	at org.eclipse.cdt.debug.internal.core.CMemoryBlockRetrievalExtension.getMemoryBlock(CMemoryBlockRetrievalExtension.java:287)
+	at org.eclipse.cdt.debug.internal.core.CMemoryBlockRetrievalExtension.getExtendedMemoryBlock(CMemoryBlockRetrievalExtension.java:226)
+	at org.eclipse.debug.internal.ui.views.memory.AddMemoryBlockAction.addMemoryBlocks(AddMemoryBlockAction.java:204)
+	at org.eclipse.debug.internal.ui.views.memory.AddMemoryBlockAction.access$0(AddMemoryBlockAction.java:193)
+	at org.eclipse.debug.internal.ui.views.memory.AddMemoryBlockAction$1.run(AddMemoryBlockAction.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.jface 2 0 2023-10-19 00:54:48.322
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 00:54:48.322
+!MESSAGE A conflict occurred for CTRL+T:
+Binding(CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.quick.type.hierarchy,Quick Type Hierarchy,
+		Shows quick type hierarchy,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d85cb18,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.toggleMemoryMonitorsPane,Toggle Memory Monitors Pane,
+		Toggle visibility of the Memory Monitors Pane,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a387515,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.memoryview,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:59:41.992
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 00:59:43.632
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:00:09.163
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:00:11.481
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY org.eclipse.debug.ui 4 120 2023-10-19 01:03:27.827
+!MESSAGE Error logged from Debug UI: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Target request failed: Target is not suspended.
+	at org.eclipse.cdt.debug.internal.core.model.CDebugElement.throwDebugException(CDebugElement.java:295)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugElement.requestFailed(CDebugElement.java:262)
+	at org.eclipse.cdt.debug.internal.core.model.CDebugElement.targetRequestFailed(CDebugElement.java:250)
+	at org.eclipse.cdt.debug.internal.core.model.CMemoryBlockExtension.getAddressableSize(CMemoryBlockExtension.java:185)
+	at org.eclipse.debug.internal.ui.memory.provisional.AbstractAsyncTableRendering.initAddressableSize(AbstractAsyncTableRendering.java:883)
+	at org.eclipse.debug.internal.ui.memory.provisional.AbstractAsyncTableRendering.access$19(AbstractAsyncTableRendering.java:877)
+	at org.eclipse.debug.internal.ui.memory.provisional.AbstractAsyncTableRendering$6.run(AbstractAsyncTableRendering.java:614)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.cdt.debug.core 4 5010 2023-10-19 01:03:27.827
+!MESSAGE Target request failed: Target is not suspended.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:06:30.736
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:06:33.051
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:10:56.900
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:10:59.285
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:17:36.302
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:17:38.681
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:20:54.617
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:20:56.872
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:25:08.730
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:25:11.007
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:29:17.120
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:29:18.848
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:30:22.164
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:30:23.798
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:31:51.150
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:31:52.843
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:32:48.506
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:32:50.151
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:34:22.017
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:34:23.637
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:36:12.044
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:36:13.657
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:37:38.563
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:37:39.071
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x201000]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:37:40.694
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x201000 /cygdrive/d/hw6/software/hw6/hw6.elf]
+!SESSION 2023-10-19 01:39:09.843 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/16.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/16.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-19 01:39:17.028
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dayo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-19 01:41:06.198
+!MESSAGE Indexed 'hw6_pt2_bsp' (83 sources, 156 headers) in 1.81 sec: 5,495 declarations; 8,559 references; 33 unresolved inclusions; 3 syntax errors; 66 unresolved names (0.47%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-10-19 01:41:06.760
+!MESSAGE Indexed 'hw6_pt2' (1 sources, 21 headers) in 0.06 sec: 983 declarations; 1,599 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.jface 2 0 2023-10-19 01:42:58.056
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 01:42:58.057
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3328db4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3328db4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 01:42:58.057
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f9e9c21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f9e9c21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 01:42:58.057
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1390a43a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1390a43a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 01:42:58.057
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bf2e475,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bf2e475,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 01:42:58.057
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e75bae7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e75bae7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 01:42:58.057
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3531509c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3531509c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 01:42:58.057
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23169374,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23169374,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 01:42:58.057
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f2b1a2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f2b1a2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-19 01:42:58.057
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c2a33af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c2a33af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:43:30.395
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 01:43:32.099
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:06:43.245
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:06:44.929
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:09:03.860
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:09:05.641
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:10:02.159
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:10:03.842
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:11:36.932
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:11:38.612
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:12:18.719
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:12:19.225
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:12:20.909
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:14:13.450
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:14:13.970
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:14:15.657
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:15:04.752
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:15:05.275
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:15:06.962
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:17:33.933
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:17:34.423
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:17:36.120
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:17:53.391
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:17:53.916
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:17:56.111
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:21:13.958
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:21:15.645
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:22:08.741
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:22:09.248
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:22:11.412
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --tcpport=auto --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:23:01.173
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:23:02.864
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:25:44.022
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:25:45.709
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:27:49.313
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:27:49.823
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:27:51.486
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:29:04.946
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:29:06.608
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:29:44.090
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:29:45.784
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:30:52.568
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:30:53.085
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:30:54.809
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:31:50.605
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:31:52.308
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:32:33.191
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:32:33.708
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:32:35.402
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:35:37.809
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:35:39.500
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:36:33.917
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:36:35.628
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:37:13.963
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:37:14.454
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x201000 --id=0x1010100 --timestamp=1697563669]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-10-19 02:37:16.149
+!MESSAGE Executing: [C:/intelfpga_lite/16.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x201000 --id=0x1010100 --timestamp=1697563669 /cygdrive/d/hw6/software/hw6_pt2/hw6_pt2.elf]

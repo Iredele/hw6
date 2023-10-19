@@ -1,0 +1,98 @@
+#include <stdio.h>
+#include <unistd.h>
+#include "altera_avalon_pio_regs.h"
+#include "sys/alt_irq.h"
+#include "system.h"
+#include "alt_types.h"
+
+
+volatile int edge_capture;
+char hex_table[10] = {0x40, 0x79, 0xA4, 0xB0, 0x99, 0x92,0x82, 0x78,0x80,0x90};
+
+
+static void pio_init(){
+	void* edge_capture_ptr = (void*)&edge_capture;
+
+	IOWR_ALTERA_AVALON_PIO_IRQ_MASK(KEYS_BASE, 0xf);
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE, 0x0);
+
+	alt_ic_isr_register(KEYS_IRQ_INTERRUPT_CONTROLLER_ID, KEYS_IRQ, (void *) handle_button_interrupts, edge_capture_ptr, 0x00);
+}
+
+static void display(int x){
+	 while(1){
+
+		    hundreds_hex =0;
+		    tens_hex=0;
+		    ones_hex = 0;
+
+		    while(x > 100){
+		  	  x = x -100;
+		  	  hundreds_hex++;
+		    }
+		    while(x > 10){
+		    	  x = x -10;
+		    	  tens_hex++;
+		      }
+		    while(x > 0){
+		  	  x = x -1;
+		  	  ones_hex++;
+		    }
+
+
+		    IOWR_ALTERA_AVALON_PIO_DATA(SEVEN_SEG_0_BASE, hex_table[ones_hex]);
+		    IOWR_ALTERA_AVALON_PIO_DATA(SEVEN_SEG_1_BASE, hex_table[tens_hex]);
+		//    IOWR_ALTERA_AVALON_PIO_DATA(SEVEN_SEG_2_BASE, hex_table[hundreds_hex]);
+
+		    }
+}
+
+static void handle_button_interrupts(void* context){
+	volatile int* edge_capture_ptr = (volatile int*) context;
+
+	*edge_capture_ptr = IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE);
+	sw_val = IORD_ALTERA_AVALON_PIO_DATA(SWITCHES_BASE);
+	sw_val = sw_val & 0xFF;
+
+	if(*edge_capture_ptr == 1){
+		key1_isr();
+	}
+
+	if(*edge_capture_ptr == 2){
+		key2_isr();
+	}
+
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE, 0);
+	IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE);
+
+}
+
+static void key1_isr(){
+	display(0);
+
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE, 0x0);
+	IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE);
+}
+
+static void key2_isr(){
+	display(1);
+
+	IOWR_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE, 0x0);
+	IORD_ALTERA_AVALON_PIO_EDGE_CAP(KEYS_BASE);
+}
+
+
+static void pio_init();
+static void display(int x);
+static void key1_isr();
+int main()
+{
+	  int count = 0;
+	  int hundreds_hex =0;
+	  int tens_hex = 0;
+	  int ones_hex = 0;
+	  display(0);
+	  pio_init();
+
+  return 0;
+}

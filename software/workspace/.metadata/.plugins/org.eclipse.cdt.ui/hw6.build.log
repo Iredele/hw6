@@ -1,0 +1,18 @@
+01:37:37 **** Incremental Build of configuration Nios II for project hw6 ****
+make all 
+Info: Building ../hw6_bsp/
+C:/intelFPGA_lite/16.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hw6_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../hw6_bsp//HAL/inc -I../hw6_bsp/ -I../hw6_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+Info: Linking hw6.elf
+nios2-elf-g++  -T'../hw6_bsp//linker.x' -msys-crt0='../hw6_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../hw6_bsp/   -Wl,-Map=hw6.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o hw6.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert hw6.elf --thread_model hal --cpu_name nios2_qsys_0 --qsys true --simulation_enabled false --id 16843008 --sidp 0x201000 --timestamp 1697563669 --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name niosII_system --quartus_project_dir "D:/hw6" --sopcinfo D:/hw6/software/hw6_bsp/../../NEW5_niosII_system.sopcinfo
+Info: (hw6.elf) 29 KBytes program size (code + initialized data).
+Info:           131036 KBytes free for stack + heap.
+Info: Creating hw6.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source hw6.elf >hw6.objdump
+[hw6 build complete]
+
+01:37:38 Build Finished (took 1s.346ms)
+
